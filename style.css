@@ -1,0 +1,40 @@
+body {
+    box-sizing: border-box;
+    background-image: url('https://img.freepik.com/premium-vector/colorful-pastel-minimalist-background-with-line-leaves_5379-578.jpg?w=2000');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+    background: #ffffff;
+    margin: 20px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #5e97ac;
+}
+
+form {
+    transition: 0.4s;
+    visibility: hidden; 
+    opacity: 0; 
+    background: #ffffff;
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-on {
+    transition: 0.4s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.close {
+    color: #6098a9;
+    text-align: right;
+    font-weight: bold;
+    cursor: pointer;
+}
